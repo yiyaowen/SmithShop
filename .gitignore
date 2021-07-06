@@ -1,0 +1,5 @@
+# Mac OS directory property file
+.DS_Store
+
+# Vim swap file
+*.swp
