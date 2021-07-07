@@ -23,13 +23,13 @@
     
     _mtkView.device = MTLCreateSystemDefaultDevice();
     
-    _mtkView.clearColor = MTLClearColorMake(176 / 255.0, 196 / 255.0, 222 / 255.0, 1.0);
+    _mtkView.clearColor = MTLClearColorMake(0.08, 0.08, 0.08, 1.0);
     
     _renderController = [[RenderController alloc] initWithMetalKitView: _mtkView];
     if (_renderController == nil)
     {
         NSLog(@"Create Render Controller failed.");
-        return;
+        exit(EXIT_FAILURE);
     }
     
     [_renderController mtkView: _mtkView drawableSizeWillChange: _mtkView.drawableSize];

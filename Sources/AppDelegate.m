@@ -15,7 +15,7 @@
 
 - (void) applicationDidFinishLaunching: (NSNotification *) notification
 {
-    NSRect rect = NSMakeRect(100, 100, 800, 600);
+    NSRect rect = NSMakeRect(0, 0, 800, 600);
     NSWindowStyleMask style = NSWindowStyleMaskClosable | NSWindowStyleMaskResizable | NSWindowStyleMaskTitled | NSWindowStyleMaskMiniaturizable;
     
     _window = [[NSWindow alloc] initWithContentRect: rect styleMask: style backing: NSBackingStoreBuffered defer: NO];

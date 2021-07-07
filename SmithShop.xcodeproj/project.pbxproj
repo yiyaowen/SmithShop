@@ -12,6 +12,7 @@
 		D4265EB026949C3700E74A4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4265EAA26949C3600E74A4F /* AppDelegate.m */; };
 		D4265EB126949C3700E74A4F /* RenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4265EAB26949C3600E74A4F /* RenderController.m */; };
 		D4265EB226949C3700E74A4F /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4265EAE26949C3700E74A4F /* Main.m */; };
+		D4D08EFD2695AEA900E4E135 /* MainShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = D4D08EFC2695AEA900E4E135 /* MainShaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D4265EAC26949C3600E74A4F /* RenderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderController.h; sourceTree = "<group>"; };
 		D4265EAD26949C3600E74A4F /* WindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowViewController.h; sourceTree = "<group>"; };
 		D4265EAE26949C3700E74A4F /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		D4D08EFB269555CA00E4E135 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		D4D08EFC2695AEA900E4E135 /* MainShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MainShaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				D4265EAE26949C3700E74A4F /* Main.m */,
 				D4265EAC26949C3600E74A4F /* RenderController.h */,
 				D4265EAB26949C3600E74A4F /* RenderController.m */,
+				D4D08EFC2695AEA900E4E135 /* MainShaders.metal */,
+				D4D08EFB269555CA00E4E135 /* ShaderTypes.h */,
 				D4265EAD26949C3600E74A4F /* WindowViewController.h */,
 				D4265EA926949C3600E74A4F /* WindowViewController.m */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D08EFD2695AEA900E4E135 /* MainShaders.metal in Sources */,
 				D4265EB126949C3700E74A4F /* RenderController.m in Sources */,
 				D4265EB026949C3700E74A4F /* AppDelegate.m in Sources */,
 				D4265EB226949C3700E74A4F /* Main.m in Sources */,
